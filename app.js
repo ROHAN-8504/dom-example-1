@@ -1,18 +1,9 @@
-function ct(){
-    document.getElementById('head').innerText="hello js"
-    return;
-}
-function cc(){
-    document.getElementById('head').style.color="red"
-    return;
-}
-function dm(){
-    document.body.style.backgroundColor="black"
-    document.body.style.color="white"
-    return;
-}
-function resize(){
-    document.getElementById('image').style.height="50px"
-    document.getElementById('image').style.width="50px"
-    return;
+function sum(){
+  let a=  document.getElementById('fv').value
+  let b=  document.getElementById('sv').value
+  let result=parseInt(a)+parseInt(b)
+  document.getElementById('box').innerText=result
+  document.body.style.backgroundColor="black"
+  document.body.style.color="white"
+
 }
